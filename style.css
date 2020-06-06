@@ -59,3 +59,7 @@ img {
     border-color: #939aa4;
     width: 100px; 
 }
+
+#about-me-links h3 {
+    text-decoration: underline;
+}

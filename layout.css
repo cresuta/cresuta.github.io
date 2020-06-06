@@ -38,6 +38,12 @@ html, body {
     align-items: center;
 }
 
+#main footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 footer {
     position: fixed;
     bottom: 0;
