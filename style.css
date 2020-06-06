@@ -47,3 +47,15 @@ img {
 #about-me-img img {
     width: 200px;
 }
+
+#github {
+    background-color: #939aa4;
+    border-color: #939aa4;
+    width: 100px;
+}
+
+#linkedin {
+    background-color: #939aa4;
+    border-color: #939aa4;
+    width: 100px; 
+}

@@ -4,21 +4,27 @@ html, body {
 
 .main-container {
     display: grid;
-    grid-template-columns: 40% 60%;
-    column-gap: 1em;
+    grid-template-columns: 100%;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+#main img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 #main h1 {
     display: flex;
+    justify-content: center;
     padding-left: 5px;
 }
 
 #main p {
     display: flex;
-    padding-left: 50px;
+    justify-content: center;
 }
 
 .main-container footer {
@@ -48,6 +54,12 @@ footer {
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#about-me-bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #about-me-img  {
