@@ -4,87 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cameron Resuta</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#nav-aboutMe">About Me</a></li>
-            <li><a href="#nav-projects">Projects</a></li>
-        </ul>
-    </nav>
-    
-    <header>
-        <h1>Cameron Resuta's Portfolio</h1>
-        <p>Hello and thank you for visiting my portfolio!</p>
-        <p>Here you will get to know a little about me and some of the previous projects I have done.</p>
-    </header>
-    
-    <hr>
-    
-    <section>
-        <h2 id="nav-aboutMe">About Me</h2>
-        <img width="100px" src="imgs/cresuta-headshot.jpg" alt="Cameron Resuta Headshot">
-            <p>Hi, my name is Cameron and I am 25 years old.</p>
-            <p>I am originally from Camp Hill, Pennsylvania.</p>
-            <p>I graduated from West Virginia University in 2017 with a Bachelor's Degree in Exercise Physiology.</p>
-            <p>I currently live in Dublin, Ohio</p>
-            <p>A few of my favorite things are: </p>
-            <ul>
-                <li>Golfing</li>
-                <li>Resistance Training</li>
-                <li>Reading self-help and financial investing books</li>
-                <li>Cooking new and healthy meals</li>
-                <li>Participating in outdoor recreational activities</li>
-            </ul>
-        
-        <h3>Skills</h3>
-        <p>Java • HTML • CSS • Flexbox • Grid • TDD • Object Oriented Programming (OOP) • Responsive Design / Mobile • Source Control / Git</p>
-        
-        <h3>Contact Information</h3>
-        <p>cresuta95@gmail.com </p>
-        
-        <h3>My Links</h3>
-        <p><a target="_blank" href="https://github.com/cresuta">GitHub Profile</a></p>
-        <p><a target="_blank" href="https://www.linkedin.com/in/cameron-resuta-2890601a1/">LinkedIn Profile</a></p>
-    </section>
-    
-    <hr>
-   
-    <section>
-        <h2 id="nav-projects">Projects</h2>
-        <article>
-            <h4>Virtual Pet</h4>
-            <p><a target="_blank" href="https://github.com/2020-Summer-Cohort/virtual-pet-java-cresuta">GitHub Source Code</a></p>
-            <img width="100px" src="imgs/virtual_pet-1.png" alt="Virtual Pet Code">
-            <img width="100px" src="imgs/virtualPetApp-1.png" alt="Virtual Pet Main Code">
-            <img width= "100px" src="imgs/virtual_pet_consoleOutput.jpg" alt="Virtual Pet Console Output">
-        </article>
-        <article>
-            <h4>Virtual Pet Shelter</h4>
-            <p><a target="_blank" href="https://github.com/2020-Summer-Cohort/virtual-pet-shelter-java-cresuta">GitHub Source Code</a></p>
-            <img width="100px" src="imgs/virtual_pet-2.png" alt="Virtual Pet Code">
-            <img width="100px" src="imgs/virtual_pet_shelter-2.png" alt="Virtual Pet Shelter Code">        
-            <img width="100px" src="imgs/virtual_pet_shelterMain-2.png" alt="Virtual Pet Shelter Main Code">
-            <img width="100px" src="imgs/virtual_pet_shelter_consoleOutput-2.jpg" alt="Virtual Pet Shelter Console Output">
-        </article>
-        <article>
-            <h4>Virtual Pet AMOK</h4>
-            <p><a target="_blank" href="https://github.com/2020-Summer-Cohort/virtual-pets-amok-java-cresuta">GitHub Source Code</a></p>
-            <img width="100px" src="imgs/virtual_pet_AMOK-3.png" alt="Virtual Pet Super Class Code">
-            <img width="100px" src="imgs/dog_AMOK-3.png" alt="Dog Class Code">
-            <img width="100px" src="imgs/organicInterface_AMOK-3.png" alt="Organic Interface Code">
-            <img width="100px" src="imgs/organicDog_AMOK-3.png" alt="Organic Dog Class Code">
-            <img width="100px" src="imgs/virtualPetShelter_AMOK-3.png" alt="Virtual Pet Shelter Code">
-            <img width="100px" src="imgs/virtualPetShelter_AMOK-3.png" alt="Virtual Pet Shelter Code">
-            <img width="100px" src="imgs/virtualPetShelterAPP_AMOK-3.png" alt="Virtual Pet Shelter Main Code">
-            <img width="100px" src="imgs/virtualPetAMOK_consoleOutput.jpg" alt="Virtual Pet AMOK Console Output">
-        </article>
-        <h3>Skills/Technologies Used In Projects</h3>
-        <p>Java • TDD • Object Oriented Programming (OOP) • Source Control / Git</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2020 | Cameron Resuta</p>
-    </footer>
+    <div class="main-container">
+        <div id="main">
+            <img src="imgs/cresuta-headshot.jpg" alt="Image of Cameron Resuta">
+            <h1>Hi, I'm Cameron.</h1>
+            <p>Junior Full-Stack Java Developer</p>
+        </div>
+        <div id="main-navbar">
+            <nav>
+                <button><a target="_blank" href="about-me.html" class="nav-link">About Me</a></button>
+                <button><a target="_blank" href="projects.html" class="nav-link">Projects</a></button>
+             </nav>
+        </div>
+        <footer>
+            <p>&copy; 2020 | Cameron Resuta</p>
+        </footer>
+    </div>
 </body>
 </html>

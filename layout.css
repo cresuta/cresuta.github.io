@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 1em;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#main h1 {
+    display: flex;
+    padding-left: 5px;
+}
+
+#main p {
+    display: flex;
+    padding-left: 50px;
+}
+
+.main-container footer {
+    display: flex;
+    justify-content: center;
+}
+
+#main-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/* About Me Layout */
+
+.about-me-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#about-me-img  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me-other {
+    display: flex;
+    justify-content: center;
+}
+
