@@ -1,0 +1,35 @@
+body {
+    background-color: #687a8f;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+nav {
+    text-align: center;
+}
+
+button {
+    background-color: #9aa493;
+    border-radius: 8px;
+}
+
+#button1 {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 350px;
+}

@@ -38,15 +38,13 @@ html, body {
     align-items: center;
 }
 
-#main footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+footer {
+    margin-top: 400px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
+button {
+    background-color: #9aa493;
+    border-radius: 8px;
 }
 
 /* About Me Layout */
@@ -68,14 +66,26 @@ footer {
     flex-wrap: wrap;
 }
 
-#about-me-img  {
+#about-me-img img  {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 #about-me-other {
     display: flex;
     justify-content: center;
+}
+
+/* Projects Layout */
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(3, 500px) 150px;
+    column-gap: 1em;
+    row-gap: 1em;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
