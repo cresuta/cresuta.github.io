@@ -12,18 +12,25 @@ body {
 }
 
 .container-1a {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    background-color: #9aa493;
+    align-items: center;
+    background-color: #9aa493
 }
 
 img {
     width: 250px;
     margin-top: 7px;
+    border-radius: 50%;
 }
 
 .container-1b {
-    background-color: #939aa4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #939aa4
 }
 
 h1 {
@@ -57,8 +64,10 @@ footer {
 }
 
 .container-2b {
-    display: grid;
-    background-color: #9aa493;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9aa493
 }
 
 
