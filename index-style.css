@@ -51,19 +51,21 @@ header {
 #github__logo {
   width: 50px;
   filter: brightness(0) invert(1);
+  transition: transform 0.3s;
 }
 
 #github__logo:hover{
-  
+  transform: scale(1.2);
 }
 
 #linkedin__logo {
   width: 50px;
   filter: brightness(0) invert(1);
+  transition: transform 0.3s;
 }
 
 #linkedin__logo:hover {
-
+  transform: scale(1.2);
 }
 
 button {
