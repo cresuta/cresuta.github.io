@@ -7,7 +7,6 @@
 }
 
 body {
-  /* background-color: #bfcddd; */
   background-image: url(imgs/simple-macbook3.jpg);
   height: 100%;
   background-position: center top;
@@ -48,6 +47,13 @@ header {
 .nav__links li a:hover {
   font-weight: 600;
   font-size: 1.3rem;
+}
+
+/* Class to add for fixed-position navbar during scrolling */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .brand__logo{
@@ -94,19 +100,29 @@ button {
 }
 
 /* Main */
-/* #main__bg {
-  background-image: url(imgs/simple-macbook3.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 150px;
+  color: #4a708b;
+}
 
-/* Class to add for fixed-position navbar during scrolling */
-.sticky {
+h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  color: #4a708b;
+}
+
+/* Footer */
+footer {
   position: fixed;
-  top: 0;
+  left: 0;
+  bottom: 0;
   width: 100%;
+  text-align: center;
+  color: #4a708b;
 }
 
 /* Small devices (mobile)  */
