@@ -7,9 +7,15 @@
 }
 
 body {
-  background-color: #bfcddd;
+  /* background-color: #bfcddd; */
+  background-image: url(imgs/simple-macbook3.jpg);
+  height: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/* Header */
 li, a, button {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
@@ -22,7 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px 10%;
   background-color: #4a708b;
 }
 
@@ -42,6 +48,10 @@ header {
 .nav__links li a:hover {
   font-weight: 600;
   font-size: 1.3rem;
+}
+
+.brand__logo{
+  width: 200px;
 }
 
 .logo {
@@ -83,4 +93,39 @@ button {
   background-color: rgba(191,205,221,0.8);
 }
 
+/* Main */
+/* #main__bg {
+  background-image: url(imgs/simple-macbook3.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* Class to add for fixed-position navbar during scrolling */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Small devices (mobile)  */
+@media screen and (min-width: 300px){
+
+}
+
+/* Medium devices (tablets) */
+@media screen and (min-width: 750px){
+  
+}
+
+/* Large devices laptops/desktops) */
+@media screen and (min-width: 950){
+  
+}
+
+/* Extra Large devices (large desktops */
+@media screen and (min-width: 1200px){
+  
+}
 
