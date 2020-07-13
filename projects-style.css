@@ -1,8 +1,110 @@
-body {
-    background-color: #687a8f;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
+body {
+    background-color: #BFCDDD;
+}
+
+/* Header */
+li, a, button {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #4a708b;
+}
+
+.nav__links {
+  list-style-type: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* Class to add for fixed-position navbar during scrolling */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.brand__logo{
+  width: 200px;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+#github__logo {
+  width: 50px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s;
+}
+
+#github__logo:hover{
+  transform: scale(1.2);
+}
+
+#linkedin__logo {
+  width: 50px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s;
+}
+
+#linkedin__logo:hover {
+  transform: scale(1.2);
+}
+
+button {
+  padding: 3px 15px;
+  background-color: rgb(191, 205, 221, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a button:hover {
+  font-weight: 600;
+  font-size: 1.3rem;
+  background-color: rgba(191,205,221,0.8);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* .container {
     display: grid;
     grid-template-columns: 30% 70%;
     row-gap: 2rem;
@@ -121,4 +223,4 @@ h4 {
 footer {
     text-align: center;
     margin-top: 350px;
-}
+} */

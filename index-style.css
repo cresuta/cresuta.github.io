@@ -115,14 +115,13 @@ h4 {
   color: #4a708b;
 }
 
-/* Footer */
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-  color: #4a708b;
+  color: white;
 }
 
 /* Small devices (mobile)  */
