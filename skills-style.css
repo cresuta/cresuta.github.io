@@ -101,7 +101,8 @@ button {
 	flex-wrap: wrap;
 	flex-grow: 1;
 	flex-shrink: 1;
-	justify-content: center;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .flex__item{
@@ -114,14 +115,18 @@ button {
 	overflow: hidden;
 }
 
+.flex__item:hover {
+    transform: scale(1.1);
+}
+
 .flex__item:before {
 	display: block;
 	content: '';
 	margin-top: 100%;
 }
 
-.link {
-	background-color: rgba(0,0,0,.3);
+.skills {
+	background-color: #4a708b;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -129,12 +134,12 @@ button {
 	left: 0;
 }
 
-.link h2 {
+.skills h2 {
 	position: absolute;
 	top: 70%;
 	left: 0;
 	right: 0;
-	color: #FFF;
+	color: white;
     padding: .5em 0;
     font-size: 18px;
 }
