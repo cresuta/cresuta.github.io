@@ -95,6 +95,13 @@ button {
   background-color: rgba(191,205,221,0.8);
 }
 
+/* Class to add for fixed-position navbar during scrolling */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -103,6 +110,8 @@ footer {
     text-align: center;
     color: white;
 }
+
+
 
 /* .container {
     display: grid;

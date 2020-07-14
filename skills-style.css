@@ -117,6 +117,7 @@ button {
 
 .flex__item:hover {
     transform: scale(1.1);
+    background-color:  #BFCDDD;
 }
 
 .flex__item:before {
