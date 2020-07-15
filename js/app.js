@@ -13,16 +13,15 @@ function myFunction() {
   }
 }
 
- // Get the modal
 let modal = document.querySelector("#myModal");
 
 // Get the button that opens the modal
 let submit = document.querySelector(".submit");
 
 // Get the <span> element that closes the modal
-let span = document.querySelector(".close")[0];
+let span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the submit button, open the modal
+// When the user clicks on the button, open the modal
 submit.onclick = function() {
   modal.style.display = "block";
 }

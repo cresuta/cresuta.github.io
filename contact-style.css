@@ -105,12 +105,14 @@ h1 {
 
 .contact__title {
     margin-top: 100px;
+    margin-left: 400px;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
 }
 
 form {
     margin-top: 50px;
+    margin-left: 400px;
     transition: all 4s ease-in-out;
 }
 
@@ -119,7 +121,7 @@ form {
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid #4a708b;
+    border-bottom: 1px solid #BFCDDD;
     margin-bottom: 16px;
 }
 
@@ -133,12 +135,18 @@ form .submit {
     letter-spacing: 2px;
     width: 200px;
     border-radius: 50px;
+    color: white;
 }
 
 form .submit:hover {
     cursor: pointer;
     transform: scale(1.1);
   
+}
+
+::placeholder {
+    color: #4a708b;
+    font-weight: 600;
 }
 
 /* The Modal (background) */
@@ -161,7 +169,8 @@ form .submit:hover {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
+    text-align: center;
   }
   
   /* The Close Button */
