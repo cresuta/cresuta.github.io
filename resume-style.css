@@ -96,53 +96,8 @@ button {
 }
 
 /* Main */
-.flex__container {
-    display: flex;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	flex-shrink: 1;
-    justify-content: center;
-    margin-top: 250px;
-}
-
-.flex__item{
-	position: relative;
-	margin: .5em;
-	width: 100%;
-	max-width: 170px;
-	text-align: center;
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-.flex__item:hover {
-    transform: scale(1.1);
-    background-color:  #BFCDDD;
-}
-
-.flex__item:before {
-	display: block;
-	content: '';
-	margin-top: 100%;
-}
-
-.skills {
-	background-color: #4a708b;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-.skills h2 {
-	position: absolute;
-	top: 70%;
-	left: 0;
-	right: 0;
-	color: white;
-    padding: .5em 0;
-    font-size: 18px;
+iframe {
+    width: 300px;
 }
 
 footer {
