@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #BFCDDD;
 }
@@ -79,21 +80,37 @@ header {
     transform: scale(1.2);
 }
   
-button {
-    padding: 3px 15px;
-    background-color: rgb(191, 205, 221, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-  
 .nav__links li a button:hover {
     font-weight: 600;
     font-size: 1.3rem;
     background-color: rgba(191,205,221,0.8);
 }
 
+/* Main */
+h2 {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #4a708b;
+}
+
+.contact__form {
+    position: absolute;
+    background: #4a708b;
+    border-radius: 5px;
+    height: 300px;
+    width: 250px;
+    left: 50%;
+    margin-left: -122px;
+    top: 50%;
+    margin-top: -90px;
+}
+
+.form__item1 {
+   text-align: center;
+   margin-top: 10px;
+}
 
 footer {
     position: fixed;
@@ -101,5 +118,5 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    color: white;
+    color: #4a708b;
 }
