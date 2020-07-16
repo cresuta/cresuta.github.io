@@ -96,15 +96,13 @@ button {
 }
 
 /* Main */
-iframe {
-    width: 300px;
+
+main {
+    text-align: center;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
+iframe {
+    margin-top: 190px;
+    width: 800px;
+    height: 800px;
 }
