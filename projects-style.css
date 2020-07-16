@@ -102,6 +102,9 @@ button {
   width: 100%;
 }
 
+/* Main */
+
+
 footer {
     position: fixed;
     left: 0;
@@ -112,124 +115,3 @@ footer {
 }
 
 
-
-/* .container {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    row-gap: 2rem;
-    column-gap: 1rem;
-    margin: 1rem auto;
-    max-width: 1000px;
-    width: 90%;
-}
-
-.container-2 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    margin: 2rem auto;
-    max-width: 1000px;
-    width: 90%;
-    background-color: #939aa4;
-    text-align: center;
-
-}
-
-.container-a {
-    display: grid;
-    justify-content: center;
-    background-color: #9aa493;
-}
-
-.container-b {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.container-c {
-    display: grid;
-    justify-content: center;
-    background-color: #9aa493;
-}
-
-.container-d {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.container-e {
-    display: grid;
-    justify-content: center;
-    background-color: #9aa493; 
-}
-
-.container-f {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-#virtualPet-1 {
-    width: 175px;
-}
-
-#virtualPet-2 {
-    width: 300px;
-}
-
-#virtualPet-3 {
-    width: 200px;
-}
-
-#shelter-1 {
-    width: 200px;
-}
-
-#shelter-2 {
-    width: 250px;
-}
-
-#shelter-3 {
-    width: 200px;
-}
-
-#amok-1 {
-    width: 200px;
-}
-
-#amok-2 {
-    width: 200px;
-}
-
-#amok-3 {
-    width: 150px;
-}
-
-button {
-    background-color: #939aa4;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-h4 {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    margin-top: 350px;
-} */

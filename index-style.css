@@ -121,26 +121,6 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  color: white;
-}
-
-/* Small devices (mobile)  */
-@media screen and (min-width: 300px){
-
-}
-
-/* Medium devices (tablets) */
-@media screen and (min-width: 750px){
-  
-}
-
-/* Large devices laptops/desktops) */
-@media screen and (min-width: 950){
-  
-}
-
-/* Extra Large devices (large desktops */
-@media screen and (min-width: 1200px){
-  
+  color: #4a708b;
 }
 
