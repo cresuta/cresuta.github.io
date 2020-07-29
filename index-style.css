@@ -125,6 +125,13 @@ footer {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    background-image: url(imgs/simple-macbook3.jpg);
+    /* background-position: -170px 240px; */
+    background-position: 0px 350px;
+    background-size: contain;
+    background-color: rgb(230, 234, 239);
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -134,7 +141,7 @@ footer {
     background-color: #4a708b;
   }
   .brand__logo {
-    width: 200px;
+    width: 180px;
 
   }
   .nav__links {
@@ -144,6 +151,10 @@ footer {
   }
   .nav__links li {
     padding: 10px;
+  }
+  h2 {
+    margin-top: 90px;
+    font-size: 35px;
   }
 }
 
