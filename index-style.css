@@ -158,3 +158,37 @@ footer {
   }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body {
+    background-image: url(imgs/simple-macbook3.jpg);
+    /* background-position: -170px 240px; */
+    background-position: 0px 350px;
+    background-size: 800px 600px;
+    background-color: rgb(230, 234, 239);
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #4a708b;
+  }
+  .brand__logo {
+    width: 180px;
+
+  }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .nav__links li {
+    padding: 10px;
+  }
+  h2 {
+    margin-top: 180px;
+    font-size: 35px;
+  }
+}
+
