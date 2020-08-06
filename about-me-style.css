@@ -102,6 +102,25 @@ button {
   }
 
 /* Main */
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__container-image img {
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.main__container-about p {
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    width: 700px;
+    text-align: center;
+}
 
 footer {
     position: fixed;
