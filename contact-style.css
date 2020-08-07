@@ -100,6 +100,7 @@ main {
 }
 
 h1 {
+    font-family: 'Work Sans', sans-serif;
     color: #4a708b;
 }
 
@@ -125,6 +126,10 @@ form {
 
 input {
     height: 45px;
+}
+
+::placeholder {
+    font-family: 'Work Sans', sans-serif;
 }
 
 form .submit {
