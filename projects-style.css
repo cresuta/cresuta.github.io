@@ -104,6 +104,15 @@ button {
 
 /* Section */
 
+.grid {  
+  margin-top: 200px;
+  text-align: center;
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr;  
+  grid-template-rows: minmax(200px auto) 400px minmax(300px, auto);  
+  grid-auto-rows: minmax(300px, auto);  
+  grid-gap: 20px;  
+}
 
 
 
