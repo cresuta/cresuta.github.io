@@ -106,12 +106,33 @@ button {
 
 .grid {  
   margin-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
   display: grid;  
   grid-template-columns: 1fr 1fr 1fr;  
   grid-template-rows: minmax(200px auto) 400px minmax(300px, auto);  
   grid-auto-rows: minmax(300px, auto);  
-  grid-gap: 20px;  
+  grid-gap: 75px;  
+}
+
+.project__img {
+  width: 100%;
+}
+
+.source-code {
+  padding: 3px 15px;
+  background-color: #4a708b;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.source-code:hover {
+  font-weight: 600;
+  font-size: 1.3rem;
+  background-color: #4a708b;
 }
 
 
