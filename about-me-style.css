@@ -125,6 +125,30 @@ button {
     text-indent: 30px;
 }
 
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+#heartbeat {
+    width: 200px;
+    margin-top: 255px;
+    margin-left: 10px;
+    align-items: center;
+    justify-items: center;
+    filter: brightness(0) invert(1);
+}
+
+#dumbbell {
+    width: 120px;
+    margin-top: 295px;
+    margin-left: 100px;
+    align-items: center;
+    justify-items: center;
+    filter: invert(40%) sepia(64%) saturate(285%) hue-rotate(162deg) brightness(89%) contrast(89%);
+}
+
 footer {
     position: fixed;
     left: 0;
