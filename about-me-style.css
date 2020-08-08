@@ -95,13 +95,6 @@ button {
     background-color: rgba(191,205,221,0.8);
 }
 
-/* Class to add for fixed-position navbar during scrolling */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
 /* Main */
 .main__container {
     display: flex;
@@ -112,7 +105,7 @@ button {
 
 .main__container-image img {
     width: 300px;
-    margin-top: 50px;
+    margin-top: 175px;
     border-radius: 10px;
 }
 
