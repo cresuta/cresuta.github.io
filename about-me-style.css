@@ -149,11 +149,3 @@ button {
     filter: invert(40%) sepia(64%) saturate(285%) hue-rotate(162deg) brightness(89%) contrast(89%);
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-}
