@@ -106,3 +106,39 @@ iframe {
     width: 800px;
     height: 800px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background-color: #4a708b;
+    }
+    .brand__logo {
+      width: 180px;
+  
+    }
+    .nav__links {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .nav__links li {
+      padding: 10px;
+    }
+    h2 {
+      margin-top: 90px;
+      font-size: 35px;
+    }
+    iframe {
+        margin-top: 80px;
+        -moz-transform: scale(0.3, 0.3); 
+        -webkit-transform: scale(0.3, 0.3); 
+        -o-transform: scale(0.3, 0.3);
+        -ms-transform: scale(0.3, 0.3);
+        transform: scale(.45, .45); 
+        
+    }
+}
