@@ -116,6 +116,19 @@ button {
   grid-gap: 75px;  
 }
 
+.grid div:nth-child(even) {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+}
+
+.grid div:nth-child(odd) {
+  background-color: #4a708b;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .project__img {
   width: 100%;
   margin-top: 15px;
@@ -131,7 +144,7 @@ button {
   border-top: 1px solid #4a708b;
 }
 
-.source-code {
+.source-code:nth-of-type(even) {
   margin-top: 10px;
   padding: 3px 15px;
   background-color: #4a708b;
@@ -142,10 +155,21 @@ button {
   font-size: 14px;
 }
 
+.source-code:nth-of-type(odd) {
+  margin-top: 10px;
+  padding: 3px 15px;
+  background-color: rgb(191, 205, 221, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 14px;
+}
+
 .source-code:hover {
   font-weight: 600;
   font-size: 1.03rem;
-  background-color: #4a708b;
+  background-color: rgba(191,205,221,0.8);
 }
 
 
