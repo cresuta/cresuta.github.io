@@ -183,7 +183,6 @@ button {
   }
   .brand__logo {
     width: 180px;
-
   }
   .nav__links {
     display: flex;
@@ -194,8 +193,19 @@ button {
     padding: 10px;
   }
   h2 {
-    margin-top: 90px;
+    margin-top: auto;
     font-size: 35px;
+  }
+  .grid {  
+    margin-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    display: grid;  
+    grid-template-columns: 1fr;  
+    grid-template-rows: minmax(200px auto) 400px minmax(300px, auto);  
+    grid-auto-rows: minmax(300px, auto);  
+    grid-gap: 75px;  
   }
 }
 
