@@ -190,3 +190,38 @@ form .submit:hover {
     text-decoration: none;
     cursor: pointer;
   }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        background-color: rgb(230, 234, 239);
+      }
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background-color: #4a708b;
+    }
+    .brand__logo {
+      width: 180px;
+  
+    }
+    .nav__links {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .nav__links li {
+      padding: 10px;
+    }
+    h1 {
+        margin-top: 300px;
+    }
+    .contact__title {
+        margin: auto;
+    }
+    form {
+        margin: auto;
+    }
+}
