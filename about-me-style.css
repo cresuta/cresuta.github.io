@@ -176,7 +176,7 @@ button {
     }
     .grid__container {
         margin-top: 300px;
-        
+        align-items: center;
     }
     #headshot {
         width: 175px;
@@ -185,18 +185,23 @@ button {
     }
     #heartbeat {
         width: 70px;
-        margin-top: 85px;
-        margin-left: 165px;
+        margin-top: 15px;
+        margin-left: 20px;
         align-items: center;
         justify-items: center;
     }
     #dumbbell {
         width: 70px;
-        margin-top: 85px;
+        margin-top: 15px;
         margin-left: 10px;
         align-items: center;
         justify-items: center;
     }
+    .main__container-about p{
+        width: 400px;
+        text-indent: 0px;
+    }
+    
   }
 
 
