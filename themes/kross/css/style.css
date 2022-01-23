@@ -249,10 +249,9 @@ a:hover {
 
 .bg-primary {
   /* background: #41228e !important; */
-  background-image: url("../images/hero-img-macbookpro.jpg");
+  background-image: url("../images/macbookpro-2.jpg");
   background-size: cover;
-  /* background-repeat: no-repeat;
-  background-position: right; */
+  background-position-x: 350px;
 }
 
 .bg-gray {
