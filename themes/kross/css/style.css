@@ -254,6 +254,11 @@ a:hover {
   background-position-x: 350px;
 }
 
+.about-bg {
+  background-image: url("../images/about/outdoors.jpeg");
+  background-size: cover;
+}
+
 .bg-gray {
   background: #eaeaea !important;
 }
@@ -448,9 +453,23 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 400px 0 200px;
   position: relative;
 }
+
+.hero-greeting {
+  bottom: 75px;
+}
+
+.social-icon {
+  transition: font-size 0.5s;
+}
+
+.social-icon:hover {
+  font-size: 30px;
+}
+
+
 @media (max-width: 767px) {
   .hero-area {
     padding: 250px 0 150px;
