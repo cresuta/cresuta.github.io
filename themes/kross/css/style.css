@@ -644,10 +644,10 @@ textarea.form-control {
 .hover-overlay {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 50%;
   border-radius: inherit;
   top: 0;
-  left: 0;
+  left: 278px;
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
   visibility: hidden;
@@ -874,3 +874,8 @@ blockquote {
   margin: 1em 0.5em;
 }
 
+
+/* Classes that need to be moved and organized */
+.recent-project {
+  text-align: center;
+}
