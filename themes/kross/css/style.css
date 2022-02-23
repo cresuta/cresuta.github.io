@@ -884,3 +884,14 @@ blockquote {
 .tech-stack-logo {
   max-width: 120px;
 }
+
+.work-flow-icon {
+  width: 50px;
+}
+
+.section-subtitle {
+ position: absolute;
+ top: 70px;
+ right: 0;
+ left: 0;
+}
