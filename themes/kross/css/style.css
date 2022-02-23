@@ -5,7 +5,7 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*!
+
 THEME: Kross - Creative Portfolio Template
 VERSION: 1.0.0
 AUTHOR: Themefisher
@@ -424,7 +424,7 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: #558097;
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -435,7 +435,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #41228e;
+    background: #558097;
   }
 }
 
@@ -446,6 +446,10 @@ textarea.form-control {
 }
 .navbar .nav-item.active {
   font-weight: bold;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid white;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -643,11 +647,13 @@ textarea.form-control {
 
 .hover-overlay {
   position: absolute;
+  display: inline;
   height: 100%;
-  width: 50%;
+  width: 100%;
+  box-sizing: content-box;
   border-radius: inherit;
   top: 0;
-  left: 278px;
+  left: 0;
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
   visibility: hidden;
@@ -706,12 +712,7 @@ textarea.form-control {
   bottom: -50px;
 }
 
-/* /testimonial */
 /* footer */
-.footer-section {
-  padding-top: 200px;
-}
-
 .section-on-footer {
   margin-bottom: -250px;
 }
