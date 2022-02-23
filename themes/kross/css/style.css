@@ -248,10 +248,16 @@ a:hover {
 }
 
 .bg-primary {
-  /* background: #41228e !important; */
   background-image: url("../images/macbookpro-2.jpg");
   background-size: cover;
   background-position-x: 350px;
+}
+
+.bg-portfolio {
+  background-image: url("../images/macbookpro-2.jpg");
+  background-size: cover;
+  background-position-x: 350px;
+  background-position-y: -250px;
 }
 
 .about-bg {
@@ -894,4 +900,8 @@ blockquote {
  top: 70px;
  right: 0;
  left: 0;
+}
+
+.portfolio-heading {
+  margin-right: 55%;
 }
