@@ -1,11 +1,6 @@
 (function ($) {
     'use strict';
 
-    const contactSendBtn = document.querySelector(".contact-send");
-    contactSendBtn.addEventListener("click", () => {
-        alert("Contact Feature Coming Soon!");
-    })
-
     // Sticky Menu
     $(window).scroll(function () {
         if ($('.navigation').offset().top > 100) {
