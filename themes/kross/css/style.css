@@ -253,7 +253,7 @@ a:hover {
   background-position-x: 350px;
 }
 
-.bg-portfolio {
+.bg-portfolio, .bg-resume, .bg-contact {
   background-image: url("../images/macbookpro-2.jpg");
   background-size: cover;
   background-position-x: 350px;
@@ -903,7 +903,7 @@ blockquote {
  left: 0;
 }
 
-.portfolio-heading {
+.portfolio-heading, .resume-heading, .contact-heading {
   margin-right: 55%;
 }
 
@@ -914,3 +914,5 @@ blockquote {
 .footer-text {
   color: white;
 }
+
+
