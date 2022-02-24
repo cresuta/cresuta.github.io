@@ -116,27 +116,27 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #EA764D;
   color: #fff;
 }
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: #EA764D !important;
 }
 .btn-primary:hover {
-  background: #542cb7;
+  background: #ed8864;
 }
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: #ed8864 !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #EA764D;
   font-weight: bold;
 }
 .btn-transparent:active, .btn-transparent:hover {
-  color: #41228e;
+  color: #EA764D;
 }
 
 body {
@@ -631,7 +631,8 @@ textarea.form-control {
   transition: 0.2s ease;
 }
 .hover-shadow:hover {
-  box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
+  box-shadow: 0px 18px 40px 8px #737a75;
+  
 }
 
 /* /service */
@@ -904,4 +905,12 @@ blockquote {
 
 .portfolio-heading {
   margin-right: 55%;
+}
+
+.footer-section {
+  background-color: #558097;
+}
+
+.footer-text {
+  color: white;
 }
