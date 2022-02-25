@@ -1,26 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
-
-THEME: Kross - Creative Portfolio Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/kross-creative-portfolio-template/
-DEMO: https://demo.themefisher.com/kross/
-GITHUB: https://github.com/themefisher/meghna-onepage-html5-business-template
-
-Get HUGO Version : https://gethugothemes.com/products/kross-hugo-theme/
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
-/*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
 body {
   line-height: 1.2;
@@ -631,8 +608,7 @@ textarea.form-control {
   transition: 0.2s ease;
 }
 .hover-shadow:hover {
-  box-shadow: 0px 18px 40px 8px #576130;
-  
+  box-shadow: 0px 18px 40px 8px #8a9297;
 }
 
 /* /service */
@@ -936,6 +912,7 @@ blockquote {
 }
 
 .work-experience-img-1 {
+  width: 330px;
   margin: 0 auto;
 }
 
@@ -956,6 +933,11 @@ blockquote {
 
 .work-experience-heading {
   margin: 3rem auto;
+}
+
+.tech-stack-language {
+  cursor: default;
+  pointer-events: none;
 }
 
 
