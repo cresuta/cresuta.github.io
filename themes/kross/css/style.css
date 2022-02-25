@@ -915,4 +915,43 @@ blockquote {
   color: white;
 }
 
+.work-experience {
+  max-width: 100vw;
+}
+
+.tech-experience-img {
+  max-width: fit-content;
+}
+
+.tech-experience-img-1{
+  width: 300px;
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.tech-experience-img-2{
+  width: 400px;
+  min-height: fit-content;
+  margin: 0 auto;
+}
+
+.work-experience-img-1 {
+  margin: 0 auto;
+}
+
+.work-experience-img-2 {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.work-experience-img-3 {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.work-experience-img-4 {
+  margin: 0 auto;
+  width: 300px;
+}
+
 
