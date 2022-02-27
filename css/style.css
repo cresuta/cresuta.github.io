@@ -471,6 +471,7 @@ textarea.form-control {
   bottom: 75px;
 }
 
+/* Homepage */
 @media (max-width: 400px) {
   .hero-greeting h1 {
     font-size: 3em;
@@ -510,6 +511,35 @@ textarea.form-control {
   }
   .education-section {
     padding: 0 2em;
+  }
+}
+
+/* About Me */
+@media (max-width: 400px) {
+  .about-greeting h1 {
+    font-size: 45px;
+    margin-left: 0.5em;
+    position: relative;
+    bottom: 200px;
+  }
+  .about-headshot {
+    bottom: 860px;
+  }
+  .headshot {
+    max-width: 200px;
+  }
+  .about-section {
+    top: 320px;
+    margin: 0 2em;
+  }
+  #signature {
+    max-width: 300px;
+  }
+  .workflow-container {
+    padding-top: 0;
+  }
+  .workflow {
+    margin: 2em auto;
   }
 }
 
