@@ -543,6 +543,22 @@ textarea.form-control {
   }
 }
 
+/* Portfolio */
+@media (max-width: 400px) {
+  .portfolio-heading {
+    font-size: 45px;
+    margin-left: 0.5em;
+    position: relative;
+    bottom: 100px;
+  }
+  .bg-portfolio {
+    background-image: url("../images/macbookpro-2.jpg");
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 150px;
+  }
+}
+
 .social-icon {
   transition: font-size 0.5s;
 }
