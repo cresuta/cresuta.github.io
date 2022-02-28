@@ -7,37 +7,48 @@ body {
   color: #4c4c4c;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
 }
-p-lg, .paragraph-lg {
+p-lg,
+.paragraph-lg {
   font-size: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 80px;
 }
 @media (max-width: 991px) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 65px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 60px;
 }
 @media (max-width: 991px) {
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 50px;
   }
 }
@@ -51,15 +62,18 @@ h3 {
   font-size: 20px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 22px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
 }
 
@@ -93,27 +107,29 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #EA764D;
+  background: #ea764d;
   color: #fff;
 }
 .btn-primary:active {
-  background: #EA764D !important;
+  background: #ea764d !important;
 }
 .btn-primary:hover {
   background: #ed8864;
 }
-.btn-primary.focus, .btn-primary.active {
+.btn-primary.focus,
+.btn-primary.active {
   background: #ed8864 !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #EA764D;
+  color: #ea764d;
   font-weight: bold;
 }
-.btn-transparent:active, .btn-transparent:hover {
-  color: #EA764D;
+.btn-transparent:active,
+.btn-transparent:hover {
+  color: #ea764d;
 }
 
 body {
@@ -230,7 +246,9 @@ a:hover {
   background-position-x: 350px;
 }
 
-.bg-portfolio, .bg-resume, .bg-contact {
+.bg-portfolio,
+.bg-resume,
+.bg-contact {
   background-image: url("../images/macbookpro-2.jpg");
   background-size: cover;
   background-position-x: 350px;
@@ -421,6 +439,11 @@ textarea.form-control {
     background: #558097;
   }
 }
+@media (max-width: 400px) {
+  .navigation.nav-bg {
+    padding: 15px 20px;
+  }
+}
 
 .navbar .nav-item .nav-link {
   font-family: "Playfair Display", serif;
@@ -448,6 +471,146 @@ textarea.form-control {
   bottom: 75px;
 }
 
+.tech-experience-date {
+  padding-bottom: 5em;
+}
+
+.work-experience-date {
+  padding-bottom: 5em;
+}
+
+/* Homepage */
+@media (max-width: 400px) {
+  .hero-greeting h1 {
+    font-size: 3em;
+    margin-left: 0.5em;
+  }
+  .hero-greeting h3 {
+    font-size: 1em;
+    margin-left: 2em;
+  }
+  .hero-greeting {
+    bottom: 85px;
+  }
+  .bg-primary {
+    background-image: url("../images/macbookpro-2.jpg");
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 150px;
+  }
+  .socials {
+    bottom: 25px;
+  }
+  .experience {
+    margin: 30px 1.5em;
+  }
+  .skill {
+    margin: 0 2em;
+  }
+  .education {
+    margin: 40px 1.5em;
+    flex-direction: column;
+  }
+  .education-container {
+    bottom: 30px;
+  }
+  .recent-project-bg {
+   padding: 1em 2em;
+  }
+  .education-section {
+    padding: 0 2em;
+  }
+}
+
+/* About Me */
+@media (max-width: 400px) {
+  .about-greeting h1 {
+    font-size: 45px;
+    margin-left: 0.5em;
+    position: relative;
+    bottom: 200px;
+  }
+  .about-headshot {
+    bottom: 860px;
+  }
+  .headshot {
+    max-width: 200px;
+  }
+  .about-section {
+    top: 320px;
+    margin: 0 2em;
+  }
+  .about-section p {
+    text-align: center;
+  }
+  #signature {
+    max-width: 300px;
+  }
+  .workflow-container {
+    padding-top: 0;
+  }
+  .workflow {
+    margin: 2em auto;
+  }
+}
+
+/* Portfolio */
+@media (max-width: 400px) {
+  .portfolio-heading {
+    font-size: 45px;
+    margin-left: 0.5em;
+    position: relative;
+    bottom: 100px;
+  }
+  .bg-portfolio {
+    background-image: url("../images/macbookpro-2.jpg");
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 150px;
+  }
+}
+
+/* Resume */
+@media (max-width: 400px) {
+  .resume-heading {
+    font-size: 45px;
+    margin-left: 0.5em;
+    position: relative;
+    bottom: 100px;
+  }
+  .bg-resume {
+    background-image: url("../images/macbookpro-2.jpg");
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 150px;
+  }
+  .tech-experience-img-2 {
+    max-width: 300px;
+  }
+  .tech-experience-date {
+    padding-bottom: 1.2em;
+  }
+  .work-experience-date {
+    padding-bottom: 1.2em;
+  }
+}
+
+/* Contact */
+@media (max-width: 400px) {
+  .contact-heading {
+    font-size: 45px;
+    margin-left: 0.5em;
+    position: relative;
+    bottom: 100px;
+  }
+  .bg-contact {
+    background-image: url("../images/macbookpro-2.jpg");
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: 150px;
+  }
+}
+
 .social-icon {
   transition: font-size 0.5s;
 }
@@ -455,7 +618,6 @@ textarea.form-control {
 .social-icon:hover {
   font-size: 30px;
 }
-
 
 @media (max-width: 767px) {
   .hero-area {
@@ -535,7 +697,8 @@ textarea.form-control {
   width: 100%;
   height: 100%;
 }
-.wave::before, .wave::after {
+.wave::before,
+.wave::after {
   content: "";
   position: absolute;
   width: 800px;
@@ -546,7 +709,7 @@ textarea.form-control {
   border-radius: 45%;
   transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
   z-index: 10;
 }
 .wave::after {
@@ -554,7 +717,7 @@ textarea.form-control {
   background-color: rgba(255, 255, 255, 0.9);
   transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 10s linear -5s infinite;
-          animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
   z-index: 20;
 }
 
@@ -618,7 +781,7 @@ textarea.form-control {
 }
 .hover-wrapper img {
   transition: 0.3s ease;
-  transform: scale(1.0);
+  transform: scale(1);
 }
 .hover-wrapper:hover img {
   transform: scale(0.9);
@@ -858,7 +1021,6 @@ blockquote {
   margin: 1em 0.5em;
 }
 
-
 /* Classes that need to be moved and organized */
 .recent-project {
   text-align: center;
@@ -873,13 +1035,15 @@ blockquote {
 }
 
 .section-subtitle {
- position: absolute;
- top: 70px;
- right: 0;
- left: 0;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: 0;
 }
 
-.portfolio-heading, .resume-heading, .contact-heading {
+.portfolio-heading,
+.resume-heading,
+.contact-heading {
   margin-right: 55%;
 }
 
@@ -899,13 +1063,13 @@ blockquote {
   max-width: fit-content;
 }
 
-.tech-experience-img-1{
+.tech-experience-img-1 {
   width: 300px;
   max-height: 100px;
   margin: 0 auto;
 }
 
-.tech-experience-img-2{
+.tech-experience-img-2 {
   width: 400px;
   min-height: fit-content;
   margin: 0 auto;
@@ -939,5 +1103,3 @@ blockquote {
   cursor: default;
   pointer-events: none;
 }
-
-
