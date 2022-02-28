@@ -471,6 +471,14 @@ textarea.form-control {
   bottom: 75px;
 }
 
+.tech-experience-date {
+  padding-bottom: 5em;
+}
+
+.work-experience-date {
+  padding-bottom: 5em;
+}
+
 /* Homepage */
 @media (max-width: 400px) {
   .hero-greeting h1 {
@@ -494,7 +502,7 @@ textarea.form-control {
     bottom: 25px;
   }
   .experience {
-    margin: 40px 1.5em;
+    margin: 30px 1.5em;
   }
   .skill {
     margin: 0 2em;
@@ -531,6 +539,9 @@ textarea.form-control {
   .about-section {
     top: 320px;
     margin: 0 2em;
+  }
+  .about-section p {
+    text-align: center;
   }
   #signature {
     max-width: 300px;
@@ -572,6 +583,15 @@ textarea.form-control {
     background-size: cover;
     background-position-x: -75px;
     background-position-y: 150px;
+  }
+  .tech-experience-img-2 {
+    max-width: 300px;
+  }
+  .tech-experience-date {
+    padding-bottom: 1.2em;
+  }
+  .work-experience-date {
+    padding-bottom: 1.2em;
   }
 }
 
